@@ -1,6 +1,6 @@
 import React from "react";
-import downArrow from "../assets/down-arrow.svg";
 import canadaFlag from "../assets/canada.svg";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -9,13 +9,13 @@ const Navbar = () => {
         <div className="flex items-center gap-8">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
-              <img src={downArrow} alt="down arrow" />
+              <IoIosArrowDown className=" text-xl" />
               <span>كندا</span>
             </div>
             <img src={canadaFlag} alt="canada flag" />
           </div>
           <div className="flex items-center gap-2">
-            <img src={downArrow} alt="down arrow" />
+            <IoIosArrowDown className=" text-xl" />
             <span>عربي</span>
           </div>
         </div>
