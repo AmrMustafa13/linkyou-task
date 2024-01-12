@@ -4,15 +4,14 @@ import Header from "./components/Header";
 import HeroSlider from "./components/HeroSlider";
 import Categories from "./components/Categories";
 import ProductSlider from "./components/ProductSlider";
+import Footer from "./components/Footer";
 import GoUpBtn from "./components/GoUpBtn";
 import { productsData } from "./data/products";
 
 const App = () => {
   return (
     <>
-      <div className="relative">
-        <GoUpBtn />
-      </div>
+      <GoUpBtn />
       <Navbar />
       <Header />
       <HeroSlider />
@@ -21,6 +20,7 @@ const App = () => {
       <ProductSlider title="مركبات و سيارات" products={productsData} />
       <ProductSlider title="عقارات" products={productsData} />
       <ProductSlider title="موبايلات و تابلت" products={productsData} />
+      <Footer />
     </>
   );
 };
