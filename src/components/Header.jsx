@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { IoIosArrowDown, IoMdSearch } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
+import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
@@ -31,20 +32,7 @@ const Header = () => {
             <li>المزيد من الفئات</li>
           </ul>
           <div className="flex items-center justify-between gap-8">
-            <div
-              className="flex-1 flex justify-between border border-solid border-primary-text rounded-xl py-1 px-8"
-              style={{
-                border: "2px solid rgba(49, 101, 174, 0.25)",
-                boxShadow: "0px 2px 4px 0px rgba(0, 0, 0, 0.10)",
-              }}
-            >
-              <input
-                type="text"
-                placeholder="البحث عن السيارات، المنازل، الهواتف و أكثر..."
-                className="w-full  text-[18px] text-primary-text outline-none"
-              />
-              <IoMdSearch className="text-secondary text-4xl" />
-            </div>
+            <SearchBar />
             <button className="text-white bg-secondary py-2 px-4 rounded-md font-bold text-xl">
               إضافة إعلان
             </button>
