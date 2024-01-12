@@ -1,9 +1,11 @@
-import React from "react";
-import { FaRegHeart } from "react-icons/fa";
+import React, { useState } from "react";
+import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdAccessTime } from "react-icons/md";
 
 const ProductCard = ({ product }) => {
+  const [isFav, setIsFav] = useState(false);
+
   return (
     <div
       className="flex flex-col rounded overflow-hidden"
@@ -24,12 +26,17 @@ const ProductCard = ({ product }) => {
         <div className="flex items-center justify-between">
           <p className="text-[17px] font-semibold">{product.price}$</p>
           <div
-            className="flex items-center justify-center p-1 w-9 h-9 rounded-full"
+            className="flex items-center justify-center p-1 w-9 h-9 rounded-full cursor-pointer"
             style={{
               boxShadow: "0px 2px 4px 0px rgba(0, 0, 0, 0.15)",
             }}
+            onClick={() => setIsFav((prev) => !prev)}
           >
-            <FaRegHeart className="text-xl" />
+            {isFav ? (
+              <FaHeart className="text-xl" />
+            ) : (
+              <FaRegHeart className="text-xl" />
+            )}
           </div>
         </div>
         <h3 className="font-[500] text-[#030F2E]">{product.title}</h3>
