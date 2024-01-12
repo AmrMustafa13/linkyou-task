@@ -4,11 +4,15 @@ import Header from "./components/Header";
 import HeroSlider from "./components/HeroSlider";
 import Categories from "./components/Categories";
 import ProductSlider from "./components/ProductSlider";
+import GoUpBtn from "./components/GoUpBtn";
 import { productsData } from "./data/products";
 
 const App = () => {
   return (
     <>
+      <div className="relative">
+        <GoUpBtn />
+      </div>
       <Navbar />
       <Header />
       <HeroSlider />
