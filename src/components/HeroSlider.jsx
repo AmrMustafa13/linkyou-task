@@ -37,19 +37,19 @@ const HeroSlider = () => {
   return (
     <Swiper {...swiperConfig} className="flex justify-between items-center">
       <SwiperSlide>
-        <img src={slider1Img} alt="slider1" />
+        <img src={slider1Img} alt="slider1" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slider2Img} alt="slider2" />
+        <img src={slider2Img} alt="slider2" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slider3Img} alt="slider3" />
+        <img src={slider3Img} alt="slider3" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slider4Img} alt="slider4" />
+        <img src={slider4Img} alt="slider4" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slider5Img} alt="slider5" />
+        <img src={slider5Img} alt="slider5" loading="lazy" />
       </SwiperSlide>
     </Swiper>
   );

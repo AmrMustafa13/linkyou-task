@@ -1,3 +1,5 @@
+import screenImg from "../assets/screen.jpeg";
+
 export const productsData = [
   {
     id: 1,
@@ -7,6 +9,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 2,
@@ -16,6 +19,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 3,
@@ -25,6 +29,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 4,
@@ -34,6 +39,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 5,
@@ -43,6 +49,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 6,
@@ -52,6 +59,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 7,
@@ -61,6 +69,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 8,
@@ -70,6 +79,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 9,
@@ -79,6 +89,7 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
   {
     id: 10,
@@ -88,5 +99,6 @@ export const productsData = [
       "شاشة سوبر ريتينا XDR مقاس 6.1 بوصة، ه هنا يظهر الوصف هنا يظهر الوصف......",
     location: "البرتا / بنف",
     time: "١٦٦ يوم",
+    img: screenImg,
   },
 ];
