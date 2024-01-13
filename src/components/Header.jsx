@@ -5,7 +5,12 @@ import DropDownMenu from "./DropDownMenu";
 
 const Header = () => {
   return (
-    <header>
+    <header
+      className="bg-white"
+      style={{
+        borderBottom: "1px solid rgba(49, 101, 174, 0.50)",
+      }}
+    >
       <div className="container flex items-center gap-8">
         <div>
           <img src={logo} alt="logo" className="w-[170px]" />

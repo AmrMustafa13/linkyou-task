@@ -12,8 +12,10 @@ const App = () => {
   return (
     <>
       <GoUpBtn />
-      <Navbar />
-      <Header />
+      <div className="sticky top-0 z-30 left-0 right-0">
+        <Navbar />
+        <Header />
+      </div>
       <HeroSlider />
       <Categories />
       <ProductSlider title="أدوات أخري" products={productsData} />
