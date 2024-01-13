@@ -32,7 +32,7 @@ export default {
         "secondary-text": "#666666",
       },
       container: {
-        padding: "2rem",
+        padding: "1rem",
         center: true,
       },
     },
