@@ -8,7 +8,7 @@ import youtubeIcon from "../assets/socials/youtube.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-[#FFFAEC] mt-8 pt-4 pb-8">
+    <footer className="bg-primary text-[#FFFAEC] mt-8 pt-4 pb-8 hidden sm:block">
       <div className="container flex justify-between gap-8">
         <div className="flex flex-col items-center">
           <img src={footerLogo} alt="footer-logo" className="w-[120px]" />

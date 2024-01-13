@@ -19,7 +19,6 @@ const ProductCard = ({ product }) => {
           src={product.img}
           alt={product.title}
           className="w-full object-cover h-40"
-          loading="lazy"
         />
       </div>
       <div className="flex-1 py-1 px-4 text-secondary flex flex-col gap-2">
