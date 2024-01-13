@@ -11,6 +11,8 @@ import category9Img from "../assets/categories/9.jpeg";
 import category10Img from "../assets/categories/10.jpeg";
 import category11Img from "../assets/categories/11.jpeg";
 import category12Img from "../assets/categories/12.jpeg";
+import CategoriesSlider from "./CategoriesSlider";
+import CategoryCard from "./CategoryCard";
 
 const categoriesData = [
   {
@@ -80,31 +82,17 @@ const Categories = () => {
     <section>
       <div className="container">
         <h2 className=" text-primary text-[28px] font-bold py-8">الفئات</h2>
+        <div className="sm:hidden">
+          <CategoriesSlider categories={categoriesData} />
+        </div>
         <div
-          className="grid grid-cols-3 gap-4 xl:gap-10"
+          className=" grid-cols-3 gap-4 xl:gap-10 hidden sm:grid"
           style={{
             gridAutoRows: "1fr",
           }}
         >
           {categoriesData.map((category) => {
-            return (
-              <div
-                className="rounded-xl flex items-center gap-5 text-center flex-col justify-between py-[14px] px-[5px] xl:flex-row xl:px-[14px] border-2 border-transparent hover:border-secondary"
-                style={{
-                  boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
-                }}
-                key={category.id}
-              >
-                <img
-                  src={category.img}
-                  alt={category.title}
-                  className="w-[62.5px] h-[62.5px] xl:w-[75px] xl:h-[75px]"
-                />
-                <span className="text-[22px] text-primary flex-1 flex items-end xl:justify-center xl:items-center">
-                  {category.title}
-                </span>
-              </div>
-            );
+            return <CategoryCard category={category} key={category.id} />;
           })}
         </div>
       </div>
