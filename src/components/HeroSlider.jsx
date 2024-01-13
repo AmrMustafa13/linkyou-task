@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
-import slider1Img from "../assets/ads/1.jpeg";
-import slider2Img from "../assets/ads/2.jpeg";
-import slider3Img from "../assets/ads/3.png";
-import slider4Img from "../assets/ads/4.jpeg";
-import slider5Img from "../assets/ads/5.png";
+import slider1Img from "../assets/ads/1.webp";
+import slider2Img from "../assets/ads/2.webp";
+import slider3Img from "../assets/ads/3.webp";
+import slider4Img from "../assets/ads/4.webp";
+import slider5Img from "../assets/ads/5.webp";
 
 const HeroSlider = () => {
   const swiperConfig = {
